@@ -6,7 +6,9 @@
 
 == USAGE:
 	require 'antikythera'
+	
 	Time.now.before?(Time.now + 4)
+	
 	=> true
 
 == Contributing to antikythera
