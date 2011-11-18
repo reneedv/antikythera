@@ -1,7 +1,15 @@
 require 'helper'
 
 class TestAntikythera < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "tell the user if one Time is before another Time" do
+    now = Time.now
+    later = Time.now + 4
+    assert_equal now.before?(later), true
+  end
+  
+  should "tell the user if one Time is after another Time" do
+    now = Time.now
+    earlier = Time.now - 4
+    assert_equal now.after?(earlier), true
   end
 end

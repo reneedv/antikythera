@@ -1,6 +1,13 @@
 = antikythera
+	A gem that adds some useful features to Time.
 
-Description goes here.
+== Install:
+  $ gem install antikythera
+
+== USAGE:
+	require 'antikythera'
+	Time.now.before?(Time.now + 4)
+	=> true
 
 == Contributing to antikythera
  
@@ -14,6 +21,7 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 Renée De Voursney. See LICENSE.txt for
+Copyright (c) 2011 Renée De Voursney. See LICENSE.txt for
 further details.
+
 
