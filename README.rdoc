@@ -7,6 +7,8 @@
 == USAGE:
   * Time.now.before?(Time.now + 4)
     $ true
+  * Time.now.after?(Time.now - 500)
+    $ true
 
 Copyright (c) 2011-present MIT
 
