@@ -47,10 +47,10 @@ fi
 # fi
 
 # If you use bundler, this might be useful to you:
-# if command -v bundle && [[ -s Gemfile ]]
-# then
-#   bundle
-# fi
+ if command -v bundle && [[ -s Gemfile ]]
+ then
+   bundle
+ fi
 
 txtrst=$(tput sgr0)       # Text reset
 txtgrn=$(tput setaf 2)    # Green
