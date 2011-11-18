@@ -5,12 +5,9 @@
   $ gem install antikythera
 
 == USAGE:
-	require 'antikythera'
+* Time.now.before?(Time.now + 4)
+  $ true
 	
-	Time.now.before?(Time.now + 4)
-	
-	=> true
-
 == Contributing to antikythera
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
