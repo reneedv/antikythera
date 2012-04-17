@@ -12,4 +12,10 @@ class TestAntikythera < Test::Unit::TestCase
     earlier = Time.now - 4
     assert_equal now.after?(earlier), true
   end
+  
+  should "tell the user if one Date is after another Date" do
+    now = Date.today
+    earlier = Date.today - 4
+    assert_equal now.after?(earlier), true
+  end
 end

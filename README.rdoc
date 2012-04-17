@@ -1,5 +1,7 @@
 = antikythera
   A gem that adds some useful features to Time.
+  
+  {<img src="https://secure.travis-ci.org/reneedv/antikythera.png" />}[http://travis-ci.org/reneedv/antikythera]
 
 == Install:
   $ gem install antikythera
